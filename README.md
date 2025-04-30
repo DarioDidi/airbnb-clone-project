@@ -1,3 +1,5 @@
+## UI/UX Design Planning 
+
 This project is a full-stack clone of the popular accommodation booking platform AirBnB. 
 
 The goal is to build a functional web application that allows users to:
