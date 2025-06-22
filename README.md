@@ -3,34 +3,34 @@ This project is a full-stack clone of the popular accommodation booking platform
 
 The goal is to build a functional web application that allows users to:
     
-    browse property listings, 
-    view detailed property information, 
-    complete bookings. 
+-    browse property listings, 
+-    view detailed property information, 
+- complete bookings. 
 
 
 ## Technology Stack
 
-    Frontend: HTML, CSS, JavaScript (React or similar framework)
-    Version Control: Git and GitHub
-    Design Tools: Figma for UI/UX design
-    Backend:-
-    Django: A high-level Python web framework used for building the RESTful API.
-    Django REST Framework: Provides tools for creating and managing RESTful APIs.
-    PostgreSQL: A powerful relational database used for data storage.
-    GraphQL: Allows for flexible and efficient querying of data.
-    Celery: For handling asynchronous tasks such as sending notifications or processing payments.
-    Redis: Used for caching and session management.
-    Docker: Containerization tool for consistent development and deployment environments.
-    CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+Frontend: HTML, CSS, JavaScript (React or similar framework)
+Version Control: Git and GitHub
+Design Tools: Figma for UI/UX design
+Backend:-
+Django: A high-level Python web framework used for building the RESTful API.
+Django REST Framework: Provides tools for creating and managing RESTful APIs.
+PostgreSQL: A powerful relational database used for data storage.
+GraphQL: Allows for flexible and efficient querying of data.
+Celery: For handling asynchronous tasks such as sending notifications or processing payments.
+Redis: Used for caching and session management.
+Docker: Containerization tool for consistent development and deployment environments.
+CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
 ## Database Design:
 
-    - Booking is done via MySQL DB API.
-    - The search service has to get the data from Elastic Search, a NoSQL Database that 
-        is best for its search engine functionality.
-    - GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
-    - The booking service communicates with Redis and the booking database cluster to reduce the load 
-        in the database also reduce the response time of API.
+- Booking is done via MySQL DB API.
+- The search service has to get the data from Elastic Search, a NoSQL Database that 
+    is best for its search engine functionality.
+- GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+- The booking service communicates with Redis and the booking database cluster to reduce the load 
+    in the database also reduce the response time of API.
 Users: 
 
     Fields: id (Primary Key), username, email, password_hash, role (host/guest)
