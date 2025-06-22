@@ -32,6 +32,7 @@ The goal is to build a functional web application that allows users to:
 - GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
 - The booking service communicates with Redis and the booking database cluster to reduce the load 
     in the database also reduce the response time of API.
+### ENTITIES: 
 Users: 
 
     Fields: id (Primary Key), username, email, password_hash, role (host/guest)
