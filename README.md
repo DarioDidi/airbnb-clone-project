@@ -14,7 +14,7 @@ The goal is to build a functional web application that allows users to:
 - HTML, CSS, JavaScript (React or similar framework)
 - Version Control: Git and GitHub
 - Design Tools: Figma for UI/UX design
-### Backend:-
+### Backend:
 - Django: A high-level Python web framework used for building the RESTful API.
 - Django REST Framework: Provides tools for creating and managing RESTful APIs.
 - PostgreSQL: A powerful relational database used for data storage.
