@@ -1,4 +1,4 @@
-## Overview
+# Overview
 This project is a full-stack clone of the popular accommodation booking platform AirBnB. 
 
 The goal is to build a functional web application that allows users to:
@@ -8,7 +8,7 @@ The goal is to build a functional web application that allows users to:
     complete bookings. 
 
 
-Technology Stack
+## Technology Stack
 
     Frontend: HTML, CSS, JavaScript (React or similar framework)
     Version Control: Git and GitHub
@@ -23,7 +23,7 @@ Technology Stack
     Docker: Containerization tool for consistent development and deployment environments.
     CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
-Database Design:
+## Database Design:
 
     Booking is done via MySQL DB API.
     The search service has to get the data from Elastic Search, a NoSQL Database that is best for its search engine functionality.
