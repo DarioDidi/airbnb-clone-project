@@ -25,9 +25,12 @@ The goal is to build a functional web application that allows users to:
 
 ## Database Design:
 
-    Booking is done via MySQL DB API.
-    The search service has to get the data from Elastic Search, a NoSQL Database that is best for its search engine functionality.
-    The booking service communicates with Redis and the booking database cluster to reduce the load in the database also reduce the response time of API.
+    - Booking is done via MySQL DB API.
+    - The search service has to get the data from Elastic Search, a NoSQL Database that 
+        is best for its search engine functionality.
+    - GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+    - The booking service communicates with Redis and the booking database cluster to reduce the load 
+        in the database also reduce the response time of API.
 Users: 
 
     Fields: id (Primary Key), username, email, password_hash, role (host/guest)
